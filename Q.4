@@ -1,0 +1,18 @@
+Q4. Output?
+
+function fun(x)
+ if x == 0
+ return
+ fun(x - 1)
+ print(x)
+fun(3)
+
+//ans== 1 2 3 ,
+because fun(3)
+x != 0 call fun(2)
+fun(2)
+x !=0 call fun(1)
+fun(1)
+x != 0 call fun(0)
+fun(0)
+x == 0 → return (base case) , 1 ,2 3 are stored in stack and results as output .
