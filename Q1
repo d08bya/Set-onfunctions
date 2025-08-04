@@ -1,0 +1,9 @@
+Q1. What will be the output of the following?
+
+function sum(n)
+ if n == 1
+ return 1
+ return n + sum(n - 1)
+print(sum(5))
+
+ans==15 because it keeps on adding the value until the value of the sum is reached 1 from 5.
