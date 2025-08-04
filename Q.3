@@ -1,0 +1,19 @@
+Q3. What is the output?
+
+
+function f(n)
+ if n == 0
+ return 0
+ else
+ return n + f(n - 2)
+print(f(6))
+
+//ans = 12
+because it's a recursive function and 
+f(6)---given
+Since 6 != 0, calculate 6 + f(4)
+f(4)
+Since 4 != 0, calculate 4 + f(2)
+f(2)
+Since 2 != 0, calculate 2 + f(0)
+f(0):this becomes 0 now return and add 6+4+2=12
